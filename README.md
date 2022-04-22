@@ -43,16 +43,22 @@ This repository provides the official PyTorch implementation of the following pa
         |   ...
         |
         └── test
-            ├── Domain 1
-            |   ├── e.jpg
-            |   ├── f.jpg
-            |   └── ...
-            ├── Domain 2
-            |   ├── g.jpg
-            |   ├── i.jpg
-            |   └── ...
-            ...
-
+        |   ├── Domain 1
+        |   |   ├── e.jpg
+        |   |   ├── f.jpg
+        |   |   └── ...
+        |   ├── Domain 2
+        |   |   ├── g.jpg
+        |   |   ├── h.jpg
+        |   |   └── ...
+        |   ...
+        |
+        └── sample
+            ├── i.jpg
+            ├── j.jpg
+            └── ...
+            
+            
 ## Training, testing and sampling MultiPathGAN on your dataset
 To train on your own dataset, run the script provided below. 
 ```bash
