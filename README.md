@@ -17,7 +17,7 @@ This repository provides the official PyTorch implementation of the following pa
 > 
 <p align="center"><img width="100%" src="image/image9.jpg" /></p>
 
-*Figure 1. Translating input to 5 color temperatures (MultiPathGAN trained on [VIDIT](https://github.com/majedelhelou/VIDIT))* 
+*Figure 3. Translating input to 5 color temperatures (MultiPathGAN trained on [VIDIT](https://github.com/majedelhelou/VIDIT))* 
 
 ## Prerequisites
 * [Python 3.5+](https://www.continuum.io/downloads)
