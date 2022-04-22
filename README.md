@@ -11,4 +11,36 @@ This repository provides the official PyTorch implementation of the following pa
 
 *Figure 1. Model Architecture* 
 
-##
+## Prerequisites
+* [Python 3.5+](https://www.continuum.io/downloads)
+* [PyTorch 0.4.0+](http://pytorch.org/)
+* [TensorFlow 1.14+](https://www.tensorflow.org/) (optionally to use tensorboard)
+
+## Prepare Dataset
+1. Split wsi patches into training and test sets (e.g., 90\%/10\% for training and test, respectively).  
+2. Save images in the format shown below:
+
+
+    data
+    └── WSI
+        ├── train
+        |   ├── Domain 1
+        |   |   ├── a.jpg  (name doesn't matter)
+        |   |   ├── b.jpg
+        |   |   └── ...
+        |   ├── Domain 2
+        |   |   ├── c.jpg
+        |   |   ├── d.jpg
+        |   |   └── ...
+        |   ...
+        |
+        └── test
+            ├── Domain 1
+            |   ├── e.jpg
+            |   ├── f.jpg
+            |   └── ...
+            ├── Domain 2
+            |   ├── g.jpg
+            |   ├── i.jpg
+            |   └── ...
+            ...
