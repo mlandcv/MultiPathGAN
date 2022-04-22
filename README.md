@@ -10,6 +10,14 @@ This repository provides the official PyTorch implementation of the following pa
 <p align="center"><img width="100%" src="image/image1new.jpg" /></p>
 
 *Figure 1. Model Architecture* 
+> 
+<p align="center"><img width="100%" src="image/image3.jpg" /></p>
+
+*Figure 2. Translation results between WSI patches from three different scanning devices* 
+> 
+<p align="center"><img width="100%" src="image/image1new.jpg" /></p>
+
+*Figure 1. Translating input to 5 color temperatures (MultiPathGAN trained on [VIDIT](https://github.com/majedelhelou/VIDIT)* 
 
 ## Prerequisites
 * [Python 3.5+](https://www.continuum.io/downloads)
