@@ -65,9 +65,8 @@ To test your trained network, run the script provided below.
 python main.py --mode test 
 ```
 To sample (translate test directory) to particular domain, run the script provided below.
-
-# Sample MultiPathGAN
 ```bash
-python main.py --mode test --which_domain 0
+# Sample MultiPathGAN
+python main.py --mode sample --which_domain 0
 ```
 Change additional arguments, to suit your needs [here]().
