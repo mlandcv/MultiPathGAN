@@ -53,14 +53,21 @@ This repository provides the official PyTorch implementation of the following pa
             |   └── ...
             ...
 
-## Training MultiPathGAN on your dataset
+## Training, testing and sampling MultiPathGAN on your dataset
 To train on your own dataset, run the script provided below. 
-
 ```bash
 # Train MultiPathGAN
 python main.py --mode train
-
+```
+To test your trained network, run the script provided below.
+```bash
 # Test MultiPathGAN
 python main.py --mode test 
 ```
-Change arguments, to suit your dataset [here]().
+To sample (translate test directory) to particular domain, run the script provided below.
+
+# Sample MultiPathGAN
+```bash
+python main.py --mode test --which_domain 0
+```
+Change additional arguments, to suit your needs [here]().
