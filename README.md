@@ -56,3 +56,11 @@ This repository provides the official PyTorch implementation of the following pa
 ## Training MultiPathGAN on your dataset
 To train on your own dataset, run the script provided below. 
 
+```bash
+# Train MultiPathGAN
+python main.py --mode train
+
+# Test MultiPathGAN
+python main.py --mode test 
+```
+Change arguments, to suit your dataset [here]().
