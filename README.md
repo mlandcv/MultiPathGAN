@@ -1,5 +1,5 @@
 # MultiPathGAN
-This repository provides the official PyTorch implementation of the following paper:
+This repository provides the PyTorch implementation of the following paper:
 > **MultiPathGAN: Structure Preserving Stain Normalization using Unsupervised Multi-domain Adversarial Network with Perception Loss**<br>
 > [Haseeb Nazki](https://github.com/mlandcv)<sup>1</sup>, [Ognjen Arandjelović](https://risweb.st-andrews.ac.uk/portal/en/persons/oggie-arandelovic(fdd98ab1-564a-42a3-bf0c-fab7afbbd63c).html)<sup>1</sup>, [InHwa Um](https://risweb.st-andrews.ac.uk/portal/en/persons/in-hwa-um(0ac978a2-6ef8-4397-bc36-f920a77696a3).html)<sup>1</sup>, [David Harrison](https://risweb.st-andrews.ac.uk/portal/en/persons/david-james-harrison(6bb6c114-15d1-4b0d-9091-8ce3ce9c2c7d).html)<sup>1</sup><br/>
 > <sup>1</sup>University of St-Andrews.<br/>
