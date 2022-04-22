@@ -86,6 +86,6 @@ If you find this work useful for your research, please cite our [paper](https://
 [1] [StarGAN_Implementation](https://github.com/yunjey/stargan) and [paper](https://arxiv.org/abs/1711.09020). 
 Yunjey Choi, Minje Choi, Munyoung Kim, Jung-Woo Ha, Sunghun Kim, and Jaegul Choo. 2018. Stargan: Unified generative adversarial networks for multi-domain image-to-image translation. In Proceedings of the IEEE conference on computer vision and pattern recognition. 8789–8797.
 
-[2] [AR-GAN_Implementation](https://github.com/mlandcv/Auxilliary_Reconstruction_GAN) adn [paper](https://arxiv.org/abs/1909.11915).
+[2] [AR-GAN_Implementation](https://github.com/mlandcv/Auxilliary_Reconstruction_GAN) and [paper](https://arxiv.org/abs/1909.11915).
 Haseeb Nazki, Sook Yoon, Alvaro Fuentes, and Dong Sun Park. 2020. Unsupervised image translation using adversarial networks for improved plant disease recognition. Computers and Electronics in Agriculture 168 (2020), 105117.
 
