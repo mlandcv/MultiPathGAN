@@ -44,3 +44,7 @@ This repository provides the official PyTorch implementation of the following pa
             |   ├── i.jpg
             |   └── ...
             ...
+
+## Training MultiPathGAN on your dataset
+To train on your own dataset, run the script provided below. 
+
