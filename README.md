@@ -25,8 +25,8 @@ This repository provides the official PyTorch implementation of the following pa
 * [TensorFlow 1.14+](https://www.tensorflow.org/) (optionally to use tensorboard)
 
 ## Prepare Dataset
-#### 1. Split wsi patches into training and test sets (e.g., 90\%/10\% for training and test, respectively).  
-#### 2. Save images in the format shown below:
+#### 1. Split wsi patches into train/test/sample sets.  
+#### 2. Save images in the folders in the same format as shown below:
 
 
     data
@@ -54,7 +54,7 @@ This repository provides the official PyTorch implementation of the following pa
         |   ...
         |
         └── input_sample_dir
-            └── Domain 1/2/3/...
+            └── Input_Domain
                 ├── e.jpg
                 ├── f.jpg
                 └── ...
@@ -76,4 +76,5 @@ To sample (translate test directory) to particular domain, run the script provid
 # Sample MultiPathGAN
 python main.py --mode sample --which_domain 0 --batch_size 1
 ```
-Change additional arguments, to suit your needs [here]().
+Change necessary arguments [here]().
+
