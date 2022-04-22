@@ -17,8 +17,8 @@ This repository provides the official PyTorch implementation of the following pa
 * [TensorFlow 1.14+](https://www.tensorflow.org/) (optionally to use tensorboard)
 
 ## Prepare Dataset
-1. Split wsi patches into training and test sets (e.g., 90\%/10\% for training and test, respectively).  
-2. Save images in the format shown below:
+#### 1. Split wsi patches into training and test sets (e.g., 90\%/10\% for training and test, respectively).  
+#### 2. Save images in the format shown below:
 
 
     data
