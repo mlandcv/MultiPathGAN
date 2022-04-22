@@ -6,18 +6,19 @@ This repository provides the PyTorch implementation of the following paper:
 > https://arxiv.org/abs/2204.09782 <br>
 >
 > **Abstract:** *Histopathology relies on the analysis of microscopic tissue images to diagnose disease. A crucial part of tissue preparation is staining whereby a dye is used to make the salient tissue components more distinguishable. However, differences in laboratory protocols and scanning devices result in significant confounding appearance variation in the corresponding images. This variation increases both human error and the inter-rater variability, as well as hinders the performance of automatic or semi-automatic methods. In the present paper we introduce an unsupervised adversarial network to translate (and hence normalize) whole slide images across multiple data acquisition domains. Our key contributions are: (i) an adversarial architecture which learns across multiple domains with a single generator-discriminator network using an information flow branch which optimizes for perceptual loss, and (ii) the inclusion of an additional feature extraction network during training which guides the transformation network to keep all the structural features in the tissue image intact. We: (i) demonstrate the effectiveness of the proposed method firstly on H\&E slides of 120 cases of kidney cancer, as well as (ii) show the benefits of the approach on more general problems, such as flexible illumination based natural image enhancement and light source adaptation.*
-> 
-<p align="center"><img width="100%" src="image/image1new.jpg" /></p>
 
 *Figure 1. Model Architecture* 
-> 
+<p align="center"><img width="100%" src="image/image1new.jpg" /></p>
+
+
+*Figure 2. Translation results between WSI patches from three different scanning devices*
 <p align="center"><img width="100%" src="image/image3.jpg" /></p>
 
-*Figure 2. Translation results between WSI patches from three different scanning devices* 
-> 
+ 
+*Figure 3. Translating input to 5 color temperatures (MultiPathGAN trained on [VIDIT](https://github.com/majedelhelou/VIDIT))* 
 <p align="center"><img width="100%" src="image/image9.jpg" /></p>
 
-*Figure 3. Translating input to 5 color temperatures (MultiPathGAN trained on [VIDIT](https://github.com/majedelhelou/VIDIT))* 
+
 
 ## Prerequisites
 * [Python 3.5+](https://www.continuum.io/downloads)
