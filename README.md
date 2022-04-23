@@ -87,7 +87,7 @@ To sample (translate input_sample_directory) into particular target domain, run 
 python main.py --mode sample --which_domain 0 --batch_size 1
 ```
 where "--which_domain" determines the target domain.
-Additionally, we can change necessary arguments provided [here]().
+Additionally, we can change necessary arguments provided [here](https://github.com/mlandcv/MultiPathGAN/blob/main/main.py).
 
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://arxiv.org/abs/2204.09782).
