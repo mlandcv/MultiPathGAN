@@ -87,11 +87,11 @@ To sample (translate input_sample_directory) into particular target domain, run 
 python main.py --mode sample --which_domain 0 --batch_size 1
 ```
 where "--which_domain" determines the target domain.
-Additionally, we can change necessary arguments provided [here](https://github.com/mlandcv/MultiPathGAN/blob/main/main.py).
+Additionally, we can change necessary arguments provided [here-main.py](https://github.com/mlandcv/MultiPathGAN/blob/main/main.py).
 
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://arxiv.org/abs/2204.09782).
-For more information on the dataset, available pretrained weights for our WSI dataset and VIDIT sub-dataset contact :[email](nazkihaseeb@gmail.com).
+For more information on the dataset, available pretrained weights for our WSI dataset and VIDIT sub-dataset [Contact Us](mailto:nazkihaseeb@gmail.com).
 
 ## References
 
