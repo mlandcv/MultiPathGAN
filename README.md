@@ -91,6 +91,7 @@ Additionally, we can change necessary arguments provided [here](https://github.c
 
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://arxiv.org/abs/2204.09782).
+For more information on the dataset, available pretrained weights for our WSI dataset and VIDIT sub-dataset contact :[email](nazkihaseeb@gmail.com).
 
 ## References
 
