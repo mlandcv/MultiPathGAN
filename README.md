@@ -62,22 +62,32 @@ This repository provides the PyTorch implementation of the following paper:
             
             
 ## Training, testing and sampling MultiPathGAN on your dataset
+
 To train on your own dataset, run the script provided below. 
 ```bash
 # Train MultiPathGAN
 python main.py
 ```
+
+To resume training from a particular checkpoint.
+```bash
+# Train MultiPathGAN
+python main.py --resume_training CP#
+```
+where "CP#" is the checkpoint number from /multipathgan/models directory.
+
 To test your trained network, run the script provided below.
 ```bash
 # Test MultiPathGAN
 python main.py --mode test 
 ```
-To sample (translate test directory) to particular domain, run the script provided below.
+To sample (translate input_sample_directory) into particular target domain, run the script provided below.
 ```bash
 # Sample MultiPathGAN
 python main.py --mode sample --which_domain 0 --batch_size 1
 ```
-Change necessary arguments [here]().
+where "--which_domain" determines the target domain.
+Additionally, we can change necessary arguments provided [here]().
 
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://arxiv.org/abs/2204.09782).
