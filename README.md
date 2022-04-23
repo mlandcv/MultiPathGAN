@@ -91,7 +91,7 @@ Additionally, we can change necessary arguments provided [here-main.py](https://
 
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://arxiv.org/abs/2204.09782).
-For more information on the dataset, available pretrained weights for our WSI dataset and VIDIT sub-dataset [Contact Us](mailto:nazkihaseeb@gmail.com).
+For more information on the dataset, available pretrained weights for MultiPathGAN trained on our WSI dataset and VIDIT sub-dataset [Contact Us](mailto:nazkihaseeb@gmail.com).
 
 ## References
 
