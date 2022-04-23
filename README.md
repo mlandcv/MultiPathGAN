@@ -65,7 +65,7 @@ This repository provides the PyTorch implementation of the following paper:
 To train on your own dataset, run the script provided below. 
 ```bash
 # Train MultiPathGAN
-python main.py --mode train
+python main.py
 ```
 To test your trained network, run the script provided below.
 ```bash
