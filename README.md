@@ -27,7 +27,7 @@ This repository provides the PyTorch implementation of the following paper:
 
 ## Prepare Dataset
 #### 1. Split wsi patches into train/test/sample sets.  
-#### 2. Save images in the folders in the format as shown below: (preferable but not required)
+#### 2. Save images inside the folders in the format as shown below: (preferable but not required)
 
 
     data
