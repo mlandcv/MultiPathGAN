@@ -81,7 +81,7 @@ To test your trained network, run the script provided below.
 # Test MultiPathGAN
 python main.py --mode test 
 ```
-To sample (translate input_sample_directory) into particular target domain, run the script provided below.
+To sample (translate images in input_sample_directory) into any particular target domain, run the script provided below.
 ```bash
 # Sample MultiPathGAN
 python main.py --mode sample --which_domain 0 --batch_size 1
